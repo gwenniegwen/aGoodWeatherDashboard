@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>Weather Dashboard</title>
+</head>
+
+<body style="background-color: #0fabbc;">
+
+  <div class="header">
+    <h1>Weather DashBoard</h1>
+  </div>
+  
+  <div class="container-fluid" id="big-container">
+   
+    <!-- //search bar// -->
+    <div class="search-container">
+      <form class="search-bar">
+        <input class="form-control" id="userResponse" type="text" placeholder="Enter a City" width="100px">
+        <input id="submitIt" input type="submit" value="Let's See The Weather">
+      </form>
+    </div>
+
+    <!-- Result container -->
+    <div class="result-container" id="resultShowHere"> <h2>Current Conditons</h2>
+      <div class="date"></div>
+      <div class="city"></div>
+      <div class="temperature"></div>
+      <div class="humidity"></div>
+      <div class="conditions"></div>
+      <div class="wind-speed"></div>
+      <div class="uv index"></div>
+    </div>
+  <!-- </div> -->
+
+  <!-- <div class="jumbotron jumbotron-fluid">
+    <div class="container" id="big-container2"> -->
+       <!-- search history -->
+      <div class="search-history" id="searchHistoryHere"> <h2>Search History</h2> </div>
+      <!-- 5 Day Forcast -->
+    <div class="five-day-container"> 
+      <div class="five-day" id="fiveDayHere"> <h2>Five Day Forecast</h2>
+
+      </div>
+    </div>
+  </div>
+
+ 
+   
+   
+
+   
+
+    
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="./script.js" type="text/javascript"></script>
+
+</body>
+
+</html>

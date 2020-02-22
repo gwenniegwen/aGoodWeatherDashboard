@@ -1,0 +1,81 @@
+
+
+
+
+
+
+    #big-container{
+        
+        background-color: #633A82;
+        
+        
+        
+    }
+
+    #big-container2{
+        background-color: #e4f9ff;
+
+    }
+
+.header {
+    background-color: #633A82;
+    border: solid 5px #e4f9ff;
+    border-radius: 5px;
+    color: seashell;
+    text-align: center;
+    
+    }
+
+.search-bar{
+    
+    padding: 10px;
+    margin-top: 10px;
+   
+}
+.search-container{
+    
+    background-color: #0fabbc;
+    border: solid 5px #e4f9ff;
+    border-radius: 5px;
+    flex: 1;
+    
+   
+    
+    
+   
+}
+
+.result-container{
+    
+    
+    background-color: #0fabbc;
+    border: solid 5px #e4f9ff;
+    border-radius: 5px;
+    color: seashell;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex: 1;
+   
+ 
+    
+
+}
+
+.search-history{
+    color: seashell;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border: solid 5px #e4f9ff;
+    background-color: #0fabbc;
+    flex: 1;
+}
+
+.five-day{
+    
+    
+    border: solid 5px #e4f9ff;
+    background-color: #0fabbc;
+    flex:1;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+} 
